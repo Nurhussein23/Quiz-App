@@ -23,3 +23,7 @@ Quiz.prototype.quess = function(userquess){
   }
   this.nextIndex()
 }
+Quiz.prototype.reset = function(){
+  this.score = 0
+  this.currentIndex = 0;
+}
